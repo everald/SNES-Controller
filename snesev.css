@@ -20,14 +20,14 @@
     display: none;
 }
 
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+.custom .bumpers { /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 759px;
     height: 34px;
     position: absolute;
     left: 104px;
 }
 
-.custom .trigger{/* These are the actual triggers themselves */
+.custom .bumper {/* These are the actual triggers themselves */
     width: 211px;
     height: 34px;
     background: url(drawing/SNESEV.png);
@@ -36,11 +36,11 @@
     opacity: 0;
 }
 
-.custom .trigger.left{
+.custom .bumper.left {
     float: left;
 }
 
-.custom .trigger.right{
+.custom .bumper.right {
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
